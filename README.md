@@ -1,3 +1,4 @@
+```bash
 engineer-learning-mcp/
 ├── package.json
 ├── tsconfig.json
@@ -18,3 +19,5 @@ engineer-learning-mcp/
 │   └── contextStore.ts
 └── tools/
     └── learn.ts
+
+```
