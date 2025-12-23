@@ -1,0 +1,12 @@
+{
+  "name": "engineer-learning",
+  "version": "1.0.0",
+  "steps": [
+    { "id": "clarify-goal", "prompt": "01-clarify-goal.md" },
+    { "id": "mkp", "prompt": "02-mkp.md" },
+    { "id": "mrd", "prompt": "03-mrd.md" },
+    { "id": "deep-questions", "prompt": "04-deep-questions.md" },
+    { "id": "real-output", "prompt": "05-real-output.md" },
+    { "id": "review", "prompt": "06-review.md" }
+  ]
+}
