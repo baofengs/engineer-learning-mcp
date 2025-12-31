@@ -1,6 +1,8 @@
 import { readFileSync } from "fs";
-import { join } from "path";
-const promptsDir = "/Users/bf/projects/bywork/engineer-learning-mcp/prompts/engineer-learning";
+import { join, dirname } from "path";
+import { fileURLToPath } from "url";
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const promptsDir = join(__dirname, "..", "prompts", "engineer-learning");
 export function renderPrompt(step, context) {
     const files = [
         "01-clarify-goal.md",
